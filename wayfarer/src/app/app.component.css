@@ -1,0 +1,9 @@
+body{
+  background-color: #F5FDC6;
+  font-family: 'Girassol', cursive;
+}
+/*header background image*/
+.bg-img{
+  background-image: url('../assets/wayfarerheader.png');
+}
+
