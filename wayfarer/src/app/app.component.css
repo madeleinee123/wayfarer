@@ -6,4 +6,9 @@ body{
 .bg-img{
   background-image: url('../assets/wayfarerheader.png');
 }
+#example1:hover{
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
 
