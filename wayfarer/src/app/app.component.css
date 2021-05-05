@@ -1,6 +1,8 @@
 body{
   background-image: linear-gradient(to bottom, rgba(168,159,104,0.9) 0%,rgba(168,159,104,0.9) 100%), url("../assets/stamps.jpg");
   font-family: 'Girassol', cursive;
+  height: 100%;
+  width: 100%;
 }
 /*header background image*/
 .bg-img{
