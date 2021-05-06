@@ -1,12 +1,9 @@
 body{
-  background-image: linear-gradient(to bottom, rgba(168,159,104,0.9) 0%,rgba(168,159,104,0.9) 100%), url("../assets/stamps.jpg");
   font-family: 'Girassol', cursive;
-  height: 100%;
-  width: 100%;
 }
 /*header background image*/
 .bg-img{
-  background-image: url('../assets/wayfarerheader.png');
+  background-image: url('src/assets/images/wayfarerheader.png');
 }
 #example1:hover{
   color: black;

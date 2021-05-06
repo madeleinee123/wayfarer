@@ -1,0 +1,17 @@
+#cities{
+  background-color: #F5FDC6;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+h3{
+  margin: 20pt;
+  text-align: left;
+}
+li{
+  list-style-type: none;
+  width: 100%;
+  margin-left: 15pt;
+}

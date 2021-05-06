@@ -1,1 +1,2 @@
 /* You can add global styles to this file, and also import other style files */
+body{background-image: linear-gradient(to bottom, rgba(168,159,104,0.9) 0%,rgba(168,159,104,0.9) 100%), url("src/assets/images/stamps.jpg");}
