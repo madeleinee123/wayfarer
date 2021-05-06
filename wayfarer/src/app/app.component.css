@@ -3,7 +3,7 @@ body{
 }
 /*header background image*/
 .bg-img{
-  background-image: url('src/assets/images/wayfarerheader.png');
+  background-image: url("src/assets/images/header/wayfarerheader.png");
 }
 #example1:hover{
   color: black;

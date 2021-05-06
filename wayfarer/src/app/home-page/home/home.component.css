@@ -15,3 +15,12 @@ li{
   width: 100%;
   margin-left: 15pt;
 }
+#body{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+app-city-info{
+  width: 63%;
+}
