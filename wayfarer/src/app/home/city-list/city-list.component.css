@@ -1,6 +1,5 @@
 #cities{
   background-color: #F5FDC6;
-  width: 30%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,17 +9,18 @@ h3{
   margin: 20pt;
   text-align: left;
 }
+ul{
+  width: 75%;
+}
 li{
   list-style-type: none;
   width: 100%;
   margin-left: 15pt;
 }
-#body{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-start;
+li:hover{
+  width: 105%;
 }
-app-city-info{
-  width: 63%;
+li, li:focus, li:active {
+  text-decoration: none;
+  color: inherit;
 }

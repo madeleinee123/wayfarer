@@ -1,0 +1,12 @@
+#body{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+app-city-list{
+  width: 30%;
+}
+router-outlet{
+  width: 63%;
+}

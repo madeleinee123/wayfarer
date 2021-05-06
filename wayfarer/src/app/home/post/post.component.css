@@ -1,0 +1,14 @@
+div{
+  background-color: #D0b17a;
+  padding: 20pt;
+  display: flex;
+  flex-direction: row;
+}
+img{
+  width:20%;
+  height: 20%;
+}
+#info{
+  display: flex;
+  flex-direction: column;
+ }

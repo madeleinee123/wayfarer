@@ -8,7 +8,6 @@ import {Component, Input, OnInit} from '@angular/core';
 export class PostComponent implements OnInit {
   @Input('name') name: string;
   @Input('content') content: string;
-  @Input('username') username: string;
   @Input('imageUrl') imageUrl: string;
   @Input('date') date: string;
   constructor() { }

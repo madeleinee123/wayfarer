@@ -1,0 +1,23 @@
+#info{
+  background-color: #f5c396;
+  padding: 20pt;
+  width: 63%;
+}
+#heading > img{
+  width: 75%;
+  height: 75%;
+}
+#heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+app-city-list{
+  width: 30%;
+}
+#body{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
