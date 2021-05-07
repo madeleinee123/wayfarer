@@ -4,7 +4,6 @@ import {CityComponent} from './city/city.component';
 import {HomeComponent} from './home.component';
 import {CityInfoComponent} from './city-info/city-info.component';
 import {PostComponent} from './post/post.component';
-import {CityListComponent} from './city-list/city-list.component';
 import {AppRoutingModule} from '../app-routing.module';
 
 @NgModule({
@@ -12,19 +11,17 @@ import {AppRoutingModule} from '../app-routing.module';
     CityComponent,
     HomeComponent,
     CityInfoComponent,
-    PostComponent,
-    CityListComponent
+    PostComponent
   ],
   imports: [
     CommonModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   exports: [
-    CityComponent,
     HomeComponent,
     CityInfoComponent,
     PostComponent,
-    CityListComponent
+    CityComponent
   ]
 })
 export class HomeModule { }

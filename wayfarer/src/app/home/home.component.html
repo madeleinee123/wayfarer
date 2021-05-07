@@ -1,4 +1,26 @@
 <div id="body">
-  <app-city-list></app-city-list>
+  <div id="cities" class="rounded mt-3 mb-3 ml-3">
+    <h3>Cities</h3>
+    <ul>
+      <li routerLink="cities/1" class="mb-3">
+        <app-city [name]="'San Fransisco'"></app-city>
+      </li>
+      <li routerLink="cities/2" class="mb-3">
+        <app-city [name]="'London'"></app-city>
+      </li>
+      <li routerLink="cities/3" class="mb-3">
+        <app-city [name]="'Kyoto'"></app-city>
+      </li>
+      <li routerLink="cities/4" class="mb-3">
+        <app-city [name]="'Sidney'"></app-city>
+      </li>
+      <li routerLink="cities/5" class="mb-3">
+        <app-city [name]="'Singapore'"></app-city>
+      </li>
+      <li routerLink="cities/6" class="mb-3">
+        <app-city [name]="'Rome'"></app-city>
+      </li>
+    </ul>
+  </div>
   <router-outlet></router-outlet>
 </div>

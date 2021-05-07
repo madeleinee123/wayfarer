@@ -5,7 +5,7 @@ import {AppRoutingModule} from './app-routing.module';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import {LandingPageModule} from './landing-page/landing-page.module';
 import {HomeModule} from './home/home.module';
-import { CityListComponent } from './home/city-list/city-list.component';
+import {CityService} from './services/city.service';
 
 @NgModule({
   declarations: [
@@ -18,9 +18,8 @@ import { CityListComponent } from './home/city-list/city-list.component';
     LandingPageModule,
     HomeModule
   ],
-  providers: [],
-  exports: [
-  ],
+  providers: [CityService],
+  exports: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

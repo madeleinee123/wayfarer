@@ -4,10 +4,33 @@
   justify-content: flex-start;
   align-items: start;
 }
-app-city-list{
-  width: 30%;
-  position:fixed;
-}
 app-city-info{
 
+}
+#cities{
+  background-color: #F5FDC6;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+h3{
+  margin: 20pt;
+  text-align: left;
+}
+ul{
+  width: 75%;
+}
+li{
+  list-style-type: none;
+  width: 100%;
+  margin-left: 15pt;
+}
+li:hover{
+  width: 105%;
+}
+li, li:focus, li:active {
+  text-decoration: none;
+  color: inherit;
 }
