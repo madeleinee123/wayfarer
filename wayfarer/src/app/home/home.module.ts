@@ -4,8 +4,8 @@ import {CityComponent} from './city/city.component';
 import {HomeComponent} from './home.component';
 import {CityInfoComponent} from './city-info/city-info.component';
 import {PostComponent} from './post/post.component';
-import {HomeRouterModule} from './home-router.module';
 import {CityListComponent} from './city-list/city-list.component';
+import {AppRoutingModule} from '../app-routing.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,7 @@ import {CityListComponent} from './city-list/city-list.component';
   ],
   imports: [
     CommonModule,
-    HomeRouterModule
+    AppRoutingModule
   ],
   exports: [
     CityComponent,

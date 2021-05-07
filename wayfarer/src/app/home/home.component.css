@@ -1,12 +1,13 @@
 #body{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: start;
 }
 app-city-list{
   width: 30%;
+  position:fixed;
 }
-router-outlet{
-  width: 63%;
+app-city-info{
+
 }
